@@ -1,0 +1,21 @@
+1)
+a)resultado(joao, X).
+saída:
+X = 8
+
+b)falta(X, Y), Y>0.
+saída:
+X = joao, Y = 2
+X = pedro, Y = 5
+X = jose, Y = 1
+
+c)reprovado(jose)
+saída:
+true
+
+2)
+aprovado(X) :-
+    resultado(X, Nota),
+    falta(X, F),
+    Nota > 6,
+    F < 2.
