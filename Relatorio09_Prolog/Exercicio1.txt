@@ -11,7 +11,7 @@ X = jose, Y = 1
 
 c)reprovado(jose)
 saída:
-true
+false
 
 2)
 aprovado(X) :-
